@@ -25,12 +25,15 @@ class StringStack extends Stack {
         return this.arr.length;
     }
 
+    @Override
     public String pop() {
         if (tos==-1) {
             return null;
         }
         return arr[tos--];
     }
+
+    @Override
     public boolean push(String str) {
         if (this.length() == this.capacity()) {
             return false;
@@ -56,12 +59,14 @@ public class Lab05_3 {
 
             if (str.equals("exit")) {
                 System.out.print("pop all strings: ");
-                while(stack.length()==0) {
-                    System.out.println(stack.pop());
+                while(stack.length()!=0) {
+                    System.out.print(stack.pop() + " ");
                 }
                 break;
             }
-            stack.push(str);
+            if (!stack.push(str)) {
+                System.out.println("stack is full!");
+            }
         }
     }
 }
