@@ -1,4 +1,4 @@
-# CSE
+# Computer Science Engineering
 __The contents of major in university__
 
 ### 4-2
