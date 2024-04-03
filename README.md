@@ -2,4 +2,4 @@
 The contents of major in university
 
 ## 4-2
-Java : Application Programming in JAVA
+__Java__ : Application Programming in JAVA
