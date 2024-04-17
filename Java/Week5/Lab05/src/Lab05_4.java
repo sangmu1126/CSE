@@ -3,6 +3,8 @@ interface USB_4 {
     default void writeUSB() {
         System.out.println("Can't write to USB");
     }
+    // overiding에 대한 피로도를 줄임
+    // overiding 시 접근 권한을 줄일 수 없음
 }
 
 interface USBA_4 extends USB_4 {

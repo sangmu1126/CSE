@@ -68,10 +68,6 @@ class MP3 extends Device implements USBA{
     public void connectA() {
         System.out.println(this.getName() + ": USB-A connected");
     }
-    @Override
-    public void writeUSB() {
-        USBA.super.writeUSB();
-    }
 }
 
 class TV extends Device{
