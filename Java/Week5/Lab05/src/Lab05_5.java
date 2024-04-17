@@ -86,7 +86,7 @@ class USBhub{
 
     public void addDevice(USB u) {
         if (port > 3) {
-            System.out.println("USBhub is fulL!");
+            System.out.println("USBhub is full!");
             return;
         }
 
