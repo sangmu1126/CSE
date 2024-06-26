@@ -1,0 +1,14 @@
+admin admin admin
+dlwlrma iu student
+wookLee lee123 professor
+student1 password1 student
+professor1 password2 professor
+sangmuLee javafinal student
+Song song professor
+test2 test2 professor
+test3 test3 student
+test1 test1 admin
+test4 test4 student
+test7 test7 student
+test8 test8 professor
+test5 test5 student

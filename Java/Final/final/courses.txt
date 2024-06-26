@@ -1,0 +1,10 @@
+Java Programming:wookLee
+Introduction to Computer Science:Kim
+Physics I:Park
+Data Structures:Choi
+Operating Systems:Song
+Database:Seo
+Algorithm:Kim
+Computer Architecture:Lee
+Capstone Design:Song
+System Programming:Park
